@@ -1,0 +1,67 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "片刻 - Soonwait's Homepage"
+# brief-intro: Developer
+
+# the subpath of your site, e.g. /blog
+baseurl: "" 
+# the base hostname & protocol for your site
+url: "http://soonwait.github.io" 
+repository: "soonwait/soonwait.github.io"
+
+permalink: /:year/:month/:day/:title/
+
+# other links
+github_username:  soonwait
+email: soonwait@163.com
+weibo_username: soonwait
+linkedin_username:
+
+description_footer: 孙伟的博客
+
+# comments
+# Disqus平台没有尝试，只能使用被墙的第三方登录
+# disqus_shortname: xxx
+# 多说平台在2017-06-01将关闭
+# duoshuo_shortname: xxx
+# duoshuo_url: "http://xxx.github.io"
+
+
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+baidu_tongji_id: 228ec71cc7edde08b40b5c1e6ff42d52
+# google 分析追踪id
+google_analytics_id:
+
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# port
+# port: 1234
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
+
+# paginate
+gems: [jekyll-paginate]
+paginate: 5
+
+# bundle 
+exclude: ["vendor"]
