@@ -28,9 +28,12 @@ description_footer: 孙伟的博客
 # comments
 # Disqus平台没有尝试，只能使用被墙的第三方登录
 # disqus_shortname: xxx
-# 多说平台在2017-06-01将关闭
+# 多说评论平台在2017-06-01将关闭
 # duoshuo_shortname: xxx
 # duoshuo_url: "http://xxx.github.io"
+# Sohu畅言评论平台
+changyan_appid: "cysVFHbTQ"
+changyan_conf: "prod_ba001207dc2c7feb06075ef20865cfde"
 
 
 # statistic analysis 统计代码
