@@ -15,9 +15,7 @@ Runing on Github + Jekyll theme by [Soonwait](https://github.com/soonwait/soonwa
 
 我的个人网站地址: [Soonwait's Personal Website](http://soonwait.github.io/)
 
-该网站使用的是「高浩阳」(https://github.com/Gaohaoyang/gaohaoyang.github.io)
-「魏楚阳」
-(https://github.com/brianway/brianway.github.io) 重构和编辑过的主题
+该网站使用的是[高浩阳](https://github.com/Gaohaoyang/gaohaoyang.github.io) [魏楚阳](https://github.com/brianway/brianway.github.io) 重构和编辑过的主题
 
 
 ## Sample
