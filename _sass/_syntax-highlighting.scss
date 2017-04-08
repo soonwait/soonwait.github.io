@@ -28,6 +28,17 @@ pre {
      }
 }
 
+// 行号
+pre.lines {
+    margin: 0 10px 0 0;
+    float: left;
+    text-align: right;
+    background-color: #1e0010;
+}
+pre {
+    line-height: 20px;
+}
+
 .highlight {
     border-radius: 3px;
 
