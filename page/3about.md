@@ -34,7 +34,9 @@ icon: heart
 
 ## 关于本站  
 
-> 讳莫如深 
+> 本站图标来源于 [www.iconfinder.com](https://www.iconfinder.com/icons/1055043/hourglass_time_timer_icon)
+
+> 本站模板来源于 [魏楚阳的仓库](https://github.com/brianway/brianway.github.io)
 
 ---
 
