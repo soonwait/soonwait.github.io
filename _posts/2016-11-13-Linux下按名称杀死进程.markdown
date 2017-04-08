@@ -1,0 +1,24 @@
+---
+layout: post
+title:  Linux下按名称杀死进程
+date:   2016-11-13 12:34:56 +08:00
+category: 每日小技巧
+tags: Linux Shell 进程
+comments: true
+---
+
+* content
+{:toc}
+
+```
+kill -9 $(ps aux | grep 'xxxx' | grep -v 'grep' | awk '{print $2}')
+```
+
+注意：`xxxx`是足够能唯一标识这个进程的特征词，一定要典型和详细的描述这个进程，避免误杀其他进程。
+必要时可以使用不太明确的特征词来列出进程，以便查看其更为准确的特征信息
+
+以`mongodb`为例，有时候需要在`mongos` `configsvr` `shardsvr`中定位到特定的那一个进程
+
+```
+$ ps aux | grep 'mongod' | grep -v 'grep'
+```
