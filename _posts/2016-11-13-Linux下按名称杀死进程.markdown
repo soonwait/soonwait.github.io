@@ -37,8 +37,12 @@ kill -9 $(ps aux | grep 'mongos --configdb' | grep -v 'grep' | awk '{print $2}')
 ```
 
 这个例子简要说明了怎么更准确的区分进程名称
+
 当然，经过翻阅 `mongodb` 官网说明 https://docs.mongodb.com/manual/reference/program/mongos/#bin.mongos
+
 我们得知，对于杀死 `mongodb` 进程使用 `kill -9` 是错误的，正确的方式应该是 `kill -2`
+
 而且，还有其他各种 `shutdown` 的方式，详情请参阅上述链接
+
 还有这个链接 http://stackoverflow.com/questions/15884521/shutdown-mongos-for-upgrade
 
