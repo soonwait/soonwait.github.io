@@ -63,7 +63,7 @@
             var paras = pre.textContent.split("\n");
             var lines = new Array(paras.length);
             for(var i = 0; i < paras.length; i++) {
-                var wrap = Math.floor(paras[i].length / 70);
+                var wrap = Math.floor(paras[i].length / 104);
                 if (paras[i] == "" && i == paras.length - 1) {
                     lines.splice(i, 1);
                 } else {
