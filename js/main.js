@@ -61,7 +61,7 @@
         var elements = document.querySelectorAll('div.highlighter-rouge > pre.highlight');
         Array.prototype.forEach.call(elements, function(pre, idx) {
             var paras = pre.textContent.split("\n");
-            var lines = new Array(paras.length);
+            var lines = new Array(paras.length + 1);
             for(var i = 0; i < paras.length; i++) {
                 var wrap = Math.floor(paras[i].length / 104);
                 if (paras[i] == "" && i == paras.length - 1) {
